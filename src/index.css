@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: "JCB";
+  src: url("./JCBFonts/JCBEB___.TTF");
+}
+@font-face {
+  font-family: "JCBExtra";
+  src: url("./JCBFonts/JCBEEB__.TTF");
+}
+@font-face {
+  font-family: "SecondFont";
+  src: url("./fonts/GillSansC-Bold_0.otf") format("opentype");
+}
+@font-face {
+  font-family: "SecondFont2";
+  src: url("./fonts/GillSansCondC-Bold_0.otf") format("opentype");
+}
+@font-face {
+  font-family: "SecondFont3";
+  src: url("./fonts/GillSansExtraBoldC_0.otf") format("opentype");
+}
+@font-face {
+  font-family: "SecondFont4";
+  src: url("./fonts/GillSansC_0.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SecondFont5";
+  src: url("./fonts/GillSansLightC-Italic_0.otf") format("opentype");
+}
+
+
+html { 
+  font-size: calc(0.1em + 1.11vw);
+  font-family: 'JCB', sans-serif;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'JCB','SecondFont', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (max-width:500px){
+  html{
+    font-size: calc(0.8em + 0.71vw);
+
+  }
+}
+

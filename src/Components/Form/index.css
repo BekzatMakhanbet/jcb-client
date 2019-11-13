@@ -1,0 +1,82 @@
+.fields{
+    display: flex;
+    flex-direction: column;
+
+}
+.form{
+    width: 37vw;
+    margin: 50px auto;
+    border: 4px solid grey;
+    padding: 4vh 3vw;
+    background-color: #F9B101;
+    font-family: 'JCB','SecondFont', sans-serif;
+    text-align: left !important;
+}
+.form h3{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 3vh;
+}
+.fields input[type=submit]{
+    background-color: #f9b101;
+    border: 2px solid #262626;
+    background-color: #262626;
+    color: white;
+    padding: 1.5vh 4vw;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 3vh;
+}
+
+.fields input{
+    margin-bottom: 1.9vh;
+}
+.fields input[type=text],input[type=email],input[type=phone]{
+    height: 7vh;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+.fields input[type=checkbox]{
+    background-color: #262626;
+    color: #F9B101;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+.fields select{
+    background: white;
+    font-family: 'JCB','SecondFont', sans-serif;
+    height: 7vh;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+.word{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: -20px !important;
+}
+
+.show{
+    display: block;
+    position: fixed;
+    top:14vh;
+    margin: 0;
+    margin-left: 33vw;
+    z-index: 584354593490;
+}
+.not-show{
+    display: none;
+}
+.cover{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba(48, 49, 48, 0.42);
+    z-index:111;
+}
+
+.close-modal{
+    font-size: calc(1em + 1vw);
+    cursor: pointer;
+}
